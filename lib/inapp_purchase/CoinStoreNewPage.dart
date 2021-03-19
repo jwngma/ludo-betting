@@ -132,7 +132,7 @@ class _CoinStoreNewPageState extends State<CoinStoreNewPage> {
                                 Navigator.of(context).push(
                                     MaterialPageRoute(builder: (_) {
 
-                                      return PaymentScreenTwo(
+                                      return PaymentScreen(
                                         price: coinList[index].price, coins: coinList[index].coins,);
 
                                    /*   return AllInOnepaymentScreen(
