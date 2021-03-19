@@ -30,8 +30,8 @@ class _AllInOnepaymentScreenState extends State<AllInOnepaymentScreen> {
   FirestoreServices _fireStoreServices = FirestoreServices();
 
   //Live
-  String mid = "NPtiMi63273535189560";
-  String PAYTM_MERCHANT_KEY = "MFS@%5t2lZ9LunC#";
+  String mid = "NPtiMi632735355689560";
+  String PAYTM_MERCHANT_KEY = "MFS@%5t26ddZ9LunC#";
   String website = "DEFAULT";
   bool isStaging = false;
 

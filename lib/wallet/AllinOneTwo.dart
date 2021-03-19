@@ -29,14 +29,14 @@ class _PaymentScreenTwoState extends State<PaymentScreenTwo> {
   FirestoreServices _fireStoreServices = FirestoreServices();
 
   //Live
-  String mid = "NPtiMi63273535189560";
-  String PAYTM_MERCHANT_KEY = "MFS@%5t2lZ9LunC#";
-  String website = "DEFAULT";
+ // String mid = "NPtiMi632735355689560";
+ // String PAYTM_MERCHANT_KEY = "MFS@%5t26ddZ9LunC#";
+ // String website = "DEFAULT";
   bool testing = false;
   bool restrictAppInvoke = false;
   //Testing
-//  String mid = "iPMoji73382098817294";
-//  String PAYTM_MERCHANT_KEY = "YZ2yMNcC%kMtT9fc";
+  String mid = "iPMoji73382098817294";
+  String PAYTM_MERCHANT_KEY = "YZ2yMNcC%kMtT9fc";
 //  String website = "WEBSTAGING";
 //  bool testing = true;
 
